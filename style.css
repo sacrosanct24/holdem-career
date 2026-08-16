@@ -1,0 +1,4 @@
+body { font-family: -apple-system, system-ui, sans-serif; max-width: 640px; margin: 0 auto;
+       padding: 2rem 1.25rem 4rem; line-height: 1.6; color: #e8e6e1; background: #14181a; }
+h1 { color: #d9b873; font-size: 1.6rem; } h2 { color: #d9b873; font-size: 1.15rem; margin-top: 2rem; }
+a { color: #d9b873; } p.muted { color: #9aa39e; font-size: 0.9rem; }
