@@ -33,7 +33,7 @@ nav a.brand { font-weight: 600; margin-right: auto; display: flex; align-items: 
          margin-top: 1.25rem; }
 
 /* Ambient mark accent: the free silhouette, centered and hushed, between body and footer. */
-.mark-accent { text-align: center; margin: 3rem 0 0; opacity: 0.18; }
+.mark-accent { text-align: center; margin: 3rem 0 0; opacity: 0.32; }
 .mark-accent img { width: 120px; height: auto; }
 
 footer { margin-top: 2rem; padding-top: 1.25rem; border-top: 1px solid rgba(255,255,255,0.08);
@@ -43,4 +43,4 @@ footer a.footer-brand { display: inline-block; margin-bottom: 1rem; opacity: 0.7
                         transition: opacity 0.15s; }
 footer a.footer-brand:hover { opacity: 1; }
 /* Stacked logo is taller than horizontal — size by width so proportions are preserved. */
-footer img.footer-logo { display: block; width: 100px; height: auto; }
+footer img.footer-logo { display: block; width: 120px; height: auto; }
