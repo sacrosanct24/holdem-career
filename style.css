@@ -5,6 +5,11 @@ h2 { color: #d9b873; font-size: 1.15rem; margin-top: 2.25rem; }
 a { color: #d9b873; }
 p.muted { color: #9aa39e; font-size: 0.9rem; }
 
+/* Scene banner: full-column-width image between nav and hero. Negative margins cancel
+   body padding so the illustration bleeds edge-to-edge within the content column. */
+.scene-banner { margin: 0.75rem -1.25rem 0; overflow: hidden; border-radius: 14px; }
+.scene-banner img { width: 100%; display: block; }
+
 nav { display: flex; align-items: center; gap: 1.1rem; padding-bottom: 1.25rem;
       border-bottom: 1px solid rgba(255,255,255,0.08); margin-bottom: 1.5rem; }
 nav img { width: 32px; height: 32px; border-radius: 8px; }
@@ -27,10 +32,15 @@ nav a.brand { font-weight: 600; margin-right: auto; display: flex; align-items: 
          color: #d9b873; border-radius: 999px; padding: 0.4rem 1.1rem; font-size: 0.9rem;
          margin-top: 1.25rem; }
 
-footer { margin-top: 3rem; padding-top: 1.25rem; border-top: 1px solid rgba(255,255,255,0.08);
+/* Ambient mark accent: the free silhouette, centered and hushed, between body and footer. */
+.mark-accent { text-align: center; margin: 3rem 0 0; opacity: 0.18; }
+.mark-accent img { width: 120px; height: auto; }
+
+footer { margin-top: 2rem; padding-top: 1.25rem; border-top: 1px solid rgba(255,255,255,0.08);
          color: #9aa39e; font-size: 0.9rem; }
 footer a { color: #9aa39e; }
-footer a.footer-brand { display: inline-block; margin-bottom: 0.9rem; opacity: 0.7;
+footer a.footer-brand { display: inline-block; margin-bottom: 1rem; opacity: 0.72;
                         transition: opacity 0.15s; }
 footer a.footer-brand:hover { opacity: 1; }
-footer img.footer-logo { display: block; height: 28px; width: auto; }
+/* Stacked logo is taller than horizontal — size by width so proportions are preserved. */
+footer img.footer-logo { display: block; width: 100px; height: auto; }
