@@ -49,3 +49,9 @@ footer a.footer-brand { display: inline-block; margin-bottom: 1rem; opacity: 0.7
 footer a.footer-brand:hover { opacity: 1; }
 /* Stacked logo is taller than horizontal — size by width so proportions are preserved. */
 footer img.footer-logo { display: block; width: 120px; height: auto; }
+/* Footer text links share the footer's muted color, so underline them to stay distinguishable
+   from surrounding text (the brand/logo link is excluded). */
+footer p a { text-decoration: underline; }
+
+/* Older engines don't treat <main> as block by default. */
+main { display: block; }
