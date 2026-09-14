@@ -55,3 +55,10 @@ footer p a { text-decoration: underline; }
 
 /* Older engines don't treat <main> as block by default. */
 main { display: block; }
+
+/* Skip link: off-screen until keyboard focus brings it into view, so screen-reader and
+   keyboard users can jump past the nav straight to the content. */
+.skip-link { position: absolute; left: -9999px; top: 0; z-index: 100;
+             background: #1d2426; color: #d9b873; padding: 0.6rem 1rem;
+             border: 1px solid rgba(217,184,115,0.35); border-radius: 0 0 8px 0; }
+.skip-link:focus { left: 0; }
