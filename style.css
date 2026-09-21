@@ -32,6 +32,13 @@ nav a.brand { font-weight: 600; margin-right: auto; display: flex; align-items: 
          color: #d9b873; border-radius: 999px; padding: 0.4rem 1.1rem; font-size: 0.9rem;
          margin-top: 1.25rem; }
 
+/* Primary hero CTA: solid fill so it outranks the muted informational .badge beside it. */
+.hero .cta { display: block; width: fit-content; margin: 1.25rem auto 0; background: #d9b873;
+             color: #14181a; font-weight: 600; text-decoration: none; border-radius: 999px;
+             padding: 0.65rem 1.6rem; }
+.hero .cta:hover { background: #e8c988; }
+.hero .badge { display: block; width: fit-content; margin: 0.75rem auto 0; }
+
 /* Events list: tighter spacing than a prose list, each item self-contained. */
 ul.events-list { padding-left: 1.25rem; margin: 1rem 0; }
 ul.events-list li { margin-bottom: 0.6rem; color: #e8e6e1; }
