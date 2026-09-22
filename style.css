@@ -39,6 +39,12 @@ nav a.brand { font-weight: 600; margin-right: auto; display: flex; align-items: 
 .hero .cta:hover { background: #e8c988; }
 .hero .badge { display: block; width: fit-content; margin: 0.75rem auto 0; }
 
+/* Inline proof shot: a single supporting screenshot dropped into a section's own prose,
+   distinct from the top-of-page .shots preview row. */
+.inline-shot { display: block; max-width: 260px; width: 100%; margin: 1.25rem auto;
+               border-radius: 18px; border: 1px solid rgba(255,255,255,0.10);
+               box-shadow: 0 6px 24px rgba(0,0,0,0.45); }
+
 /* Events list: tighter spacing than a prose list, each item self-contained. */
 ul.events-list { padding-left: 1.25rem; margin: 1rem 0; }
 ul.events-list li { margin-bottom: 0.6rem; color: #e8e6e1; }
