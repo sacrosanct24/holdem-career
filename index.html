@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Hold'em Career — a roguelike poker career for iPhone and iPad</title>
-<meta name="description" content="Single-player poker with real consequences and zero real money. One bankroll, one life, and fifty-three opponents who remember you. Seven nightly events plus a championship circuit. Pay once — no ads, no chip store, ever.">
+<meta name="description" content="Single-player poker with real consequences and zero real money. One bankroll, one life, fifty-three opponents who remember you, and eight poker games from No-Limit Hold'em to Seven Card Stud. Seven events plus a championship circuit. Pay once — no ads, no chip store, ever.">
 <meta property="og:title" content="Hold'em Career">
 <meta property="og:description" content="A roguelike poker career: one bankroll, one life, and fifty-three opponents who remember you. No real money, no chip store — pay once.">
 <meta property="og:image" content="https://holdemcareer.actualclown.com/assets/og-image.png">
@@ -64,9 +64,9 @@
 </div>
 
 <h2>The premise</h2>
-<p>You get a bankroll and a seat at the $50 table. Everything after that, you earn.</p>
+<p>You get a bankroll and a seat. Everything after that, you earn.</p>
 <p>Hold'em Career is a roguelike poker career: sit down with exactly one buy-in, no rebuys, no
-top-offs. Win and climb toward the $1,000 game. Go broke and the run is over — the bankroll
+top-offs. Win and climb from the $50 table toward the $1,000 game. Go broke and the run is over — the bankroll
 gone, the ladder reset, the story finished. What survives is what you've earned: milestones
 permanently raise the starting bankroll of every run that follows, and what you've learned
 about the players never resets at all.</p>
@@ -74,6 +74,24 @@ about the players never resets at all.</p>
 isn't a limitation — it's the entire point. When a bad river costs you a stack, it costs you
 something the game refuses to sell back to you, and that's what makes folding the right hand
 feel like a decision instead of a tap.</p>
+<p>Every new career starts at <strong>the Friends Table</strong>: a home game among six soft
+players whose dossiers are open from the first hand, each with one obvious tell to find. Get
+$200 up and you graduate to the $50 table and the real ladder. Already know the game? Skip it in
+Settings.</p>
+
+<h2>Eight ways to deal</h2>
+<p>No-Limit Texas Hold'em is the heart of the career, but the same rules-correct engine deals
+seven more games, all from one game picker that remembers your last choice:</p>
+<ul class="events-list">
+  <li><strong>No-Limit Hold'em</strong> and <strong>Fixed-Limit Hold'em</strong></li>
+  <li><strong>Pot-Limit Omaha</strong> — four hole cards, and you must use exactly two.</li>
+  <li><strong>Short Deck (6+) Hold'em</strong> — 36 cards, where a flush beats a full house.</li>
+  <li><strong>Five Card Draw</strong> and <strong>2-7 Single Draw Lowball</strong></li>
+  <li><strong>Five Card Stud</strong> and <strong>Seven Card Stud</strong> — fixed-limit, with an
+  eye marking every card your opponents can see.</li>
+</ul>
+<p>Each game has its own rules page and a hand guide tuned to the game you're actually playing.
+In the flop games you can <em>run it twice</em> when you're all in — if your opponent agrees.</p>
 
 <h2>The table</h2>
 <p>Fifty-three opponents in all — six friends who teach you the game at a home table, thirty-four
@@ -100,8 +118,8 @@ Predictability has a visible price, and <em>explain-replay</em> shows exactly wh
 <h2>When it goes wrong</h2>
 <p>Going broke doesn't have to end the run immediately. Someone at the table may offer to stake
 you — a character you've played against, at their terms. They take a cut of every winning night
-until you're square. One debt at a time. One loan token per run — with a second earned every
-rung you climb and then lose back. The climb is frozen while you owe, and stiffing a lender
+until you're square. One debt at a time. A run starts with one loan token, and you earn another
+the first time you reach each new rung of the ladder. The climb is frozen while you owe, and stiffing a lender
 burns that bridge for the rest of your career.</p>
 <p>And when you bust someone out — or they bust you — the moment gets its own beat: a
 full-screen reveal showing both hole cards, the board, and the winning hand before the next
@@ -110,20 +128,22 @@ deal. Eliminations deserve more than a chip counter going to zero.</p>
 <h2>Learn the game for real</h2>
 <p>Every hand is recorded — all cards, every action, and the <em>reason</em> behind every AI
 decision, captured at the moment it was made. Replay any hand with every hole card face-up and
-read exactly why Vince shoved the turn ("still steaming from the last pot" is a legitimate
+read exactly why Vince shoved the turn ("still steaming from a big loss" is a legitimate
 reason). No other poker game tells you why.</p>
 <img class="inline-shot" src="assets/explain-mode.png" alt="Explain mode on a finished hand: every hole card face-up, with the real reason behind an opponent's fold">
 <p>After each session, the coach reviews your play: pot-odds mistakes, positional leaks, the
 calls that cost you — computed against your actual hands, not generic advice. Career stats
 track your VPIP, PFR and win rate by seat, and every metric comes with a plain-English
 explanation of what good looks like. The price of a call is shown at your decision point —
-information, not instruction.</p>
+information, not instruction. Want more help in the moment? Optional hints, off by default,
+suggest an action at your Hold'em decisions along with your equity — training wheels, not a
+solver.</p>
 <img class="inline-shot" src="assets/coach.png" alt="The coach's costliest-mistakes list, with the real dollar cost of each hand">
 
 <h2>Seven events</h2>
 <p>Beyond the nightly cash game, events come to town on a <em>hands-played</em> clock — never
-wall-clock, no daily timers, no login streaks. The schedule is yours. Each event returns every
-few hundred hands you play, gated by something you've actually earned.</p>
+wall-clock, no daily timers, no login streaks. The schedule is yours. Each event returns on its
+own clock — every 200 to 1,500 hands you play — gated by something you've actually earned.</p>
 <img class="inline-shot" src="assets/6-events.png" alt="The events calendar: The Hall, The Invitational, The Duel and more">
 <ul class="events-list">
   <li><strong>The Deep End</strong> — Double the starting chips, a slow blind clock, and room to
@@ -140,17 +160,18 @@ few hundred hands you play, gated by something you've actually earned.</p>
   Pros wall to wall, and the clock runs deep.</li>
   <li><strong>The Hall</strong> — The ten greatest players who ever sat down: The Kid, The Ghost,
   The Godfather, The Prodigy, The Brat, The Dark Lord, The Magician, The Cowboy, The Rounders,
-  The Cincinnati Kid. One table. One champion.</li>
+  The Cincinnati Kid. Seven of them take the other seats each night. One table. One
+  champion.</li>
 </ul>
 
 <h2>The Legends</h2>
 <p>Alongside the regular cast of thirty-four are thirteen named opponents who only appear in
 the special events. Three — Nadia, Roman, and Esme — populate The Duel and The Underground.
-The ten Legends appear exclusively in The Hall: characters drawn from the history of the game,
-each with their own playing style, portrait, and biography. Beat one and earn their seal. Beat
+The ten Legends sit down only in The Hall and on the Championship Circuit: characters drawn
+from the history of the game, each with their own playing style, portrait, and biography. Beat one and earn their seal. Beat
 all ten and earn something harder to name.</p>
 <p>Rex — the whale, a semi-retired tech executive who has never once worried about the price of
-anything — sits at the $500 table and above, tilting the regular cash game's texture whenever
+anything — sits at the $500 table, tilting the regular cash game's texture whenever
 he's in the lineup.</p>
 
 <h2>The Championship Circuit</h2>
@@ -178,10 +199,14 @@ internet required — your career lives on your device and nowhere else, and the
 nothing. Every hand deals from a seed shown in the app, so any hand can be replayed exactly;
 the AI never sees your cards. Seventy-eight achievements from <em>First Orbit</em> to
 <em>Every Name in the Book</em>, because bragging rights shouldn't touch game balance.</p>
+<p>Make the table yours: five felt themes, each with a matching app icon, and eight card backs.
+On iPad in landscape and on iPhone Duo, a running log of the hand sits beside the felt — and on
+Duo the table follows the fold, keeping clear of the hinge whether it's closed, open, or
+half-folded.</p>
 
 <section class="cross-promo-card" style="margin: 2.5rem 0 1.5rem; border: 1px solid #c4a777; border-radius: 12px; padding: 1.5rem; background: rgba(196, 167, 119, 0.05);">
   <h3 style="margin-top: 0; color: #c4a777;">Also from Actual Clown: Blackjack Career</h3>
-  <p>The single-player casino roguelike. Count the shoe with authentic Hi-Lo math, dodge the pit boss, take streaming chat dares, drill basic strategy in The Gym, and play 10 casino event games. Zero ads, zero chip purchases.</p>
+  <p>The single-player casino roguelike. Count the shoe with authentic Hi-Lo math, dodge the pit boss, take streaming chat dares, drill basic strategy in The Gym, and play eighteen casino games beyond blackjack — from craps and roulette to slots and video poker. Zero ads, zero chip purchases.</p>
   <p><a href="https://blackjackcareer.actualclown.com" target="_blank" rel="noopener" style="color: #c4a777; font-weight: 600;">Visit Blackjack Career Website &rarr;</a> &nbsp;·&nbsp; <a href="https://apps.apple.com/app/id6812623725" target="_blank" rel="noopener" style="color: #c4a777; font-weight: 600;">View on App Store &rarr;</a></p>
 </section>
 
